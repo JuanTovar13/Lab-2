@@ -1,1 +1,1 @@
-class FeaturedPost
+class FeaturedPost 
