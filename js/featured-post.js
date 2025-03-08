@@ -22,5 +22,4 @@ class FeaturedPost extends HTMLElement {
   }
 }
 
-// Registrar el componente
 customElements.define('featured-post', FeaturedPost);
