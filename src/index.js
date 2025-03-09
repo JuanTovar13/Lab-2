@@ -1,10 +1,8 @@
-import "./components/header/header.js";
-import "./components/search/search.js";
-import "./components/card/card.js";
-import "./components/news/news.js";
-import "./components/dial/dial.js";
+import HeaderComponent from './components/header/header.js';
+import SearchComponent from './components/search/search.js';
 
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Web Components cargados");
-});
+console.log("Custom element defined");
+customElements.define('header-component', HeaderComponent);
+customElements.define('search-component', SearchComponent);
+
 

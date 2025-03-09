@@ -1,20 +1,48 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog con Web Components</title>
-    <script type="module" src="./src/index.js"></script>
+    
+    <title>Blog</title>
+    <style>
+        body {
+            background-color: #01000a; /* Color de fondo oscuro */
+            color: #ffffff; /* Color de texto blanco para contraste */
+            font-family: Arial, sans-serif;
+            margin-left: 400px;
+            margin-top: 200px;
+            padding: 0;
+            max-width: 1000px
+        }
+        #title {
+            font-size: 50px;
+            margin-bottom: 0;
+        }
+        #subtitle {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: -15px;
+        }
+    </style>
 </head>
 <body>
-    <header-component></header-component>
-    <search-component></search-component>
-    <main>
-        <card-component title="Noticia 1" content="Contenido de la noticia 1."></card-component>
-        <card-component title="Noticia 2" content="Contenido de la noticia 2."></card-component>
-        <news-component headline="Resumen de Noticia 1"></news-component>
-        <news-component headline="Resumen de Noticia 2"></news-component>
-    </main>
-    <dial-component></dial-component>
+    
+    <h1 id="title">Blog</h1>
+    <p id="subtitle">Stay in the loop with the latest about our products</p>
+    <div class="container">
+        <header-component></header-component>
+        <search-component></search-component>
+    </div>
+    <card></card>
+    <news></news>
+    <dial></dial>
+    <script type="module" src="./src/index.js"></script>
+
 </body>
 </html>
