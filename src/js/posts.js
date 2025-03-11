@@ -1,24 +1,38 @@
 const posts = [
-    {
-      image: "assets/images/post1.jpg",
-      title: "Post 1 Title",
-      date: "January 1, 2023",
-      description: "This is the first post description...",
-      link: "/post/1"
-    },
-    {
-      image: "assets/images/post2.jpg",
-      title: "Post 2 Title",
-      date: "February 15, 2023",
-      description: "This is the second post description...",
-      link: "/post/2"
-    },
-    {
-      image: "assets/images/post3.jpg",
-      title: "Post 3 Title",
-      date: "March 30, 2023",
-      description: "This is the third post description...",
-      link: "/post/3"
-    }
-  ];
+  {
+      category: "Engineering",
+      title: "The future of AI in software engineering",
+      description: "Artificial intelligence is revolutionizing software engineering. Explore how AI-driven tools are enhancing development processes and improving software...",
+      authors: ["Remy Sharp", "Travis Howard"],
+      date: "July 14, 2021",
+      image: "path/to/image1.jpg"
+  },
+  {
+      category: "Design",
+      title: "Embracing minimalism in modern design",
+      description: "Minimalism is a key trend in modern design. Discover how our design team incorporates minimalist principles to create clean and impactful user experiences.",
+      authors: ["Kate Morrison"],
+      date: "July 14, 2021",
+      image: "path/to/image2.jpg"
+  },
+  {
+      category: "Product",
+      title: "Driving growth with user-centric product design",
+      description: "Our user-centric product design approach is driving significant growth. Learn about the strategies we employ to create products that resonate with users.",
+      authors: ["Erica Johns"],
+      date: "July 14, 2021",
+      image: "path/to/image3.jpg"
+  },
+  {
+      category: "Company",
+      title: "Cultivating a culture of innovation",
+      description: "Innovation is at the heart of our company culture. Learn about the initiatives we have in place to foster creativity and drive groundbreaking solutions.",
+      authors: ["Cindy Baker"],
+      date: "July 14, 2021",
+      image: "path/to/image4.jpg"
+  }
+];
+
+export default posts;
+
   
