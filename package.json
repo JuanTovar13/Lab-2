@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/JuanTovar13/Lab-2/issues"
   },
-  "homepage": "https://github.com/JuanTovar13/Lab-2#readme"
+  "homepage": "https://github.com/JuanTovar13/Lab-2#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0"
+  }
 }

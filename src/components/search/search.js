@@ -30,6 +30,7 @@ class SearchComponent extends HTMLElement {
                 .search-container input {
                     color: white;
                     font-weight: bold;
+                    
                 }
             </style>
             <div class="search-container">

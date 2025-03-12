@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+      "categoria": "Engineering",
+      "titulo": "Revolutionizing software development with cutting-edge tools",
+      "descripcion": "Our latest engineering tools are designed to streamline workflows and boost productivity. Discover how these innovations are transforming the software...",
+      "imagen": "https://via.placeholder.com/300",
+      "autor": "John Doe",
+      "fecha": "2025-03-08"
+    },
+    {
+        "id": 2,
+      "categoria": "Technology",
+      "titulo": "New AI Breakthrough",
+      "descripcion": "A new AI model has been developed...",
+      "imagen": "https://via.placeholder.com/300",
+      "autor": "John Doe",
+      "fecha": "2025-03-08"
+    },
+    {
+        "id": 3,
+      "categoria": "Technology",
+      "titulo": "New AI Breakthrough",
+      "descripcion": "A new AI model has been developed...",
+      "imagen": "https://via.placeholder.com/300",
+      "autor": "John Doe",
+      "fecha": "2025-03-08"
+    },
+    {
+        "id": 4,
+      "categoria": "Technology",
+      "titulo": "New AI Breakthrough",
+      "descripcion": "A new AI model has been developed...",
+      "imagen": "https://via.placeholder.com/300",
+      "autor": "John Doe",
+      "fecha": "2025-03-08"
+    },
+    {
+        "id": 5,
+      "categoria": "Technology",
+      "titulo": "New AI Breakthrough",
+      "descripcion": "A new AI model has been developed...",
+      "imagen": "https://via.placeholder.com/300",
+      "autor": "John Doe",
+      "fecha": "2025-03-08"
+    },
+    {
+        "id": 6,
+      "categoria": "Technology",
+      "titulo": "New AI Breakthrough",
+      "descripcion": "A new AI model has been developed...",
+      "imagen": "https://via.placeholder.com/300",
+      "autor": "John Doe",
+      "fecha": "2025-03-08"
+    }
+
+]
