@@ -1,9 +1,12 @@
-#posts-container {
+.post-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
-    gap: 20px;
-    max-width: 600px;
-    margin: auto;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+  }
+  
+  .post-card {
+    background: #222; 
     padding: 20px;
-}
+    border-radius: 10px;
+  }
 
