@@ -20,16 +20,17 @@ class PostCard extends HTMLElement {
         this.shadowRoot.innerHTML = `
             <style>
                 .post-card {
-                    background:rgb(106, 103, 103);
+                    background: rgb(40, 40, 40);
                     color: white;
                     padding: 20px;
                     border-radius: 10px;
-                    margin-bottom: 20px;
                     font-family: Arial, sans-serif;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    text-align: center;
+                    align-items: flex-start;
+                    text-align: left;
+                    width: 100%;
+                    box-sizing: border-box;
                 }
                 .post-card img {
                     width: 100%;
@@ -61,7 +62,7 @@ class PostCard extends HTMLElement {
                 <p>${this.getAttribute('content')}</p>
             </div>
         `;
-    }
+    }    
 }
 
 customElements.define('post-card', PostCard);
