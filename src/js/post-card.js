@@ -26,9 +26,19 @@ class PostCard extends HTMLElement {
                     border-radius: 10px;
                     margin-bottom: 20px;
                     font-family: Arial, sans-serif;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+                .post-card img {
+                    width: 100%;
+                    max-height: 200px;
+                    object-fit: cover;
+                    border-radius: 10px;
                 }
                 .post-card h2 {
-                    margin: 0;
+                    margin: 10px 0;
                     font-size: 20px;
                 }
                 .post-card p {
@@ -41,9 +51,8 @@ class PostCard extends HTMLElement {
                 }
             </style>
             <div class="post-card">
-                <h2>
-                    ${this.getAttribute('title') || 'No Title'}
-                </h2>
+                ${this.getAttribute('image') ? `<img src="${this.getAttribute('image')}" alt="Post Image">` : ''}
+                <h2>${this.getAttribute('title') || 'No Title'}</h2>
                 <p class="meta">
                     <strong>${this.getAttribute('category')}</strong> | 
                     ${this.getAttribute('author')} - 
