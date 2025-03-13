@@ -19,21 +19,21 @@ class PostCard extends HTMLElement {
     render() {
         this.shadowRoot.innerHTML = `
             <style>
+             :host {
+                display: block;
+                width: 100%; 
+            }
                 .post-card {
-                    background: rgb(40, 40, 40);
-                    color: white;
-                    padding: 20px;
-                    border-radius: 10px;
-                    font-family: Arial, sans-serif;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    text-align: left;
-                    width: 100%;
-                    box-sizing: border-box;
+                 background: rgb(40, 40, 40);
+                 color: white;
+                 padding: 20px;
+                 border-radius: 10px;
+                 font-family: Arial, sans-serif;
+                 text-align: left;
+                 box-sizing: border-box;
+                }
                 }
                 .post-card img {
-                    width: 100%;
                     max-height: 200px;
                     object-fit: cover;
                     border-radius: 10px;
@@ -46,6 +46,10 @@ class PostCard extends HTMLElement {
                     font-size: 14px;
                     color: #ccc;
                 }
+                .post-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+            }
                 .post-card .meta {
                     font-size: 12px;
                     color: #888;
@@ -61,6 +65,7 @@ class PostCard extends HTMLElement {
                 </p>
                 <p>${this.getAttribute('content')}</p>
             </div>
+            
         `;
     }    
 }
