@@ -1,4 +1,4 @@
-import posts from './posts.js';
+import posts from './posts.json';
 
 document.addEventListener('DOMContentLoaded', () => {
     const latestSection = document.getElementById('latest-posts');
