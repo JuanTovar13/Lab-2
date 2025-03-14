@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Blog</title>
-    <style>
+    
+    <style >
+        
+        
+
         body {
             background-color: #01000a; 
             color: #ffffff; 
@@ -13,20 +17,23 @@
             margin-left: 200px;
             margin-top: 200px;
             padding: 0;
-            max-width: 1000px;
+            
+            width: 80%;
             
         }
-        #title {
+        .title {
             font-size: 50px;
             margin-bottom: 0;
         }
-        #subtitle {
+        .subtitle {
             font-size: 15px;
             margin-top: 10px;
         }
-        .container {
+        .head-container {
             display: flex;
             justify-content: space-between;
+            
+            flex-direction: row;
             align-items: center;
             margin-left: -15px;
         }
@@ -35,13 +42,17 @@
 <body>
 
     
-    <h1 id="title">Blog</h1>
-    <p id="subtitle">Stay in the loop with the latest about our products</p>
-    <div class="container">
+    <h1 class="title">Blog</h1>
+    <p class="subtitle">Stay in the loop with the latest about our products</p>
+    <div class="head-container">
         <header-component></header-component>
         <search-component></search-component>
     </div>
-    <card></card>
+    <div class="card-component">
+        
+            <card-list class="card-list"></card-list>
+        
+    </div>
     <news></news>
     <dial></dial>
   <script type="module" src="./src/index.js"></script>
