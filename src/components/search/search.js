@@ -42,4 +42,4 @@ class SearchComponent extends HTMLElement {
     }
 }
 
-export default customElements.define('search-component', SearchComponent);
+export default SearchComponent
