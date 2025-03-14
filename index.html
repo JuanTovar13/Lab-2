@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Blog</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="src/js/posts.js" defer></script>
+    <script src="src/js/post-card.js" defer></script>
+    <script src="src/js/latest-posts.js" defer></script>
+    <script src="src/js/pagination.js" defer></script>
+    <script src="src/js/footer.js" defer></script>
+    
+
+</head>
+
     
     <style >
         
@@ -53,10 +64,15 @@
             <card-list class="card-list"></card-list>
         
     </div>
-    <news></news>
-    <dial></dial>
+    <section class="latest-posts">
+        <h2>Latest</h2>
+        <div id="posts-container"></div>
+        <pagination-component></pagination-component>
+        <footer-component></footer-component>
+    </section>
   <script type="module" src="./src/index.js"></script>
   
+
 
 </body>
 </html>
