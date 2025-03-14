@@ -32,7 +32,6 @@ class PostCard extends HTMLElement {
                  text-align: left;
                  box-sizing: border-box;
                 }
-                }
                 .post-card img {
                     max-height: 200px;
                     object-fit: cover;
@@ -65,9 +64,9 @@ class PostCard extends HTMLElement {
                 </p>
                 <p>${this.getAttribute('content')}</p>
             </div>
-            
         `;
     }    
 }
 
 customElements.define('post-card', PostCard);
+
