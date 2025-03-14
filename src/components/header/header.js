@@ -50,7 +50,7 @@ class HeaderComponent extends HTMLElement {
     }
 }
 
-customElements.define('header-component', HeaderComponent);
+
 
 export default HeaderComponent;
 

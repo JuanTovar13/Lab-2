@@ -15,9 +15,9 @@ class ListCardsComponent extends HTMLElement  {
         .card-container {
             display: grid;
             grid-template-columns: repeat(2, 3fr); 
-            gap: 15px; /* Espaciado entre las cards */
+            gap: 15px; 
             width: 100%;
-            max-width: 1200px; /* Límite de ancho */
+            max-width: 1200px; 
             
             padding: 20px;
             

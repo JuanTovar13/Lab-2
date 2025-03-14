@@ -51,7 +51,7 @@ class CardCustom extends HTMLElement {
                     width: 100%; 
                     
                     border-radius: 10px 10px 0 0;
-                    display: ${hasImage ? 'block' : 'none'}; /* Ocultar si no hay imagen */
+                    display: ${hasImage ? 'block' : 'none'};
                 }
 
                 
