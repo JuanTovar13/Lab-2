@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 postCard.setAttribute('category', post.category);
                 postCard.setAttribute('author', post.authors.map(a => a.name).join(', '));
                 postCard.setAttribute('date', post.date);
-                postCard.setAttribute('content', post.description);
+                postCard.setAttribute('content', post.description.substring(0, 100) + '...'); 
+                postCard.setAttribute('image', post.image || ''); 
 
                 postsContainer.appendChild(postCard);
             });

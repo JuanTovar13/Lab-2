@@ -1,0 +1,7 @@
+#posts-container {
+    display: grid !important; 
+    grid-template-columns: repeat(2, 1fr) !important; 
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
